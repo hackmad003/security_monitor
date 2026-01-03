@@ -1,0 +1,1890 @@
+{
+  "week": "2026-W01",
+  "created": "2026-01-02T13:54:54.425449",
+  "last_updated": "2026-01-02T16:56:28.543392",
+  "alerts": [
+    {
+      "severity": "HIGH",
+      "type": "Brute Force Detection",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389885967)/",
+      "failed_attempts": 4,
+      "timestamps": [
+        "/Date(1767389888532)/",
+        "/Date(1767389887789)/",
+        "/Date(1767389886988)/",
+        "/Date(1767389885967)/"
+      ],
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390277823)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390263531)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390640076)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390502934)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390492451)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390375717)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390304417)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390238227)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390238185)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389878593)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389870752)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389508850)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389350385)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389349113)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389345249)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389344663)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389073822)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389023664)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389018102)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389000077)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388978233)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388724136)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388679248)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388667168)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388666654)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388592435)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388400385)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388353179)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388326080)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388324555)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388286166)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388119035)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388113458)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388014658)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387871463)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387774849)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387744291)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387736346)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387731244)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387683791)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387551358)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387453917)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387378975)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387374930)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387373997)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387222443)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387221339)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387209133)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "LAPTOP-UCGEET2O",
+      "timestamp": "Fri Jan  2 13:59:31 2026",
+      "target": "LocalMachine"
+    },
+    {
+      "severity": "HIGH",
+      "type": "Brute Force Detection",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389885967)/",
+      "failed_attempts": 7,
+      "timestamps": [
+        "/Date(1767390709109)/",
+        "/Date(1767390708492)/",
+        "/Date(1767390707783)/",
+        "/Date(1767389888532)/",
+        "/Date(1767389887789)/"
+      ],
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390703394)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390395404)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390277823)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390263531)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390640076)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390502934)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390492451)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390375717)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390304417)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390238227)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390238185)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389878593)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389870752)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389508850)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389350385)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389349113)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389345249)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389344663)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389073822)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389023664)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389018102)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389000077)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388978233)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388724136)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388679248)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388667168)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388666654)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388592435)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388400385)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388353179)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388326080)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388324555)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388286166)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388119035)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388113458)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388014658)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387871463)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387774849)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387744291)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387736346)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387731244)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387683791)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387551358)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387453917)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387378975)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387374930)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387373997)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "LAPTOP-UCGEET2O",
+      "timestamp": "Fri Jan  2 14:09:31 2026",
+      "target": "LocalMachine"
+    },
+    {
+      "severity": "HIGH",
+      "type": "Brute Force Detection",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389885967)/",
+      "failed_attempts": 7,
+      "timestamps": [
+        "/Date(1767390709109)/",
+        "/Date(1767390708492)/",
+        "/Date(1767390707783)/",
+        "/Date(1767389888532)/",
+        "/Date(1767389887789)/"
+      ],
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767391305626)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767391299587)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390727623)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390703394)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390395404)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390277823)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390263531)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390640076)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390502934)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390492451)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390375717)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390304417)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390238227)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390238185)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389878593)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389870752)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389508850)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389350385)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389349113)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389345249)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389344663)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389073822)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389023664)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389018102)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389000077)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388978233)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388724136)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388679248)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388667168)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388666654)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388592435)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388400385)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388353179)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388326080)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388324555)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388286166)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388119035)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388113458)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388014658)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387871463)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387774849)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387744291)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387736346)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387731244)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387683791)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387551358)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "LAPTOP-UCGEET2O",
+      "timestamp": "Fri Jan  2 14:54:13 2026",
+      "target": "LocalMachine"
+    },
+    {
+      "severity": "HIGH",
+      "type": "Brute Force Detection",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389885967)/",
+      "failed_attempts": 7,
+      "timestamps": [
+        "/Date(1767390709109)/",
+        "/Date(1767390708492)/",
+        "/Date(1767390707783)/",
+        "/Date(1767389888532)/",
+        "/Date(1767389887789)/"
+      ],
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767392395587)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767391312136)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767391305626)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767391299587)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390727623)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390703394)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390395404)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390277823)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390263531)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390640076)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390502934)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390492451)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390375717)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390304417)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390238227)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767390238185)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389878593)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389870752)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389508850)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389350385)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389349113)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389345249)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389344663)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389073822)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389023664)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389018102)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767389000077)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388978233)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388724136)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388679248)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388667168)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388666654)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388592435)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388400385)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388353179)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388326080)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388324555)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388286166)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388119035)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388113458)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767388014658)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387871463)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387774849)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387744291)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387736346)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387731244)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767387683791)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767392540641)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "LAPTOP-UCGEET2O",
+      "timestamp": "Fri Jan  2 15:01:44 2026",
+      "target": "LocalMachine"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767392801559)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767396496087)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767396493432)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767396199223)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767395987254)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767395473808)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767395468666)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767395258617)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767394380280)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767394330704)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767394319168)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767394305428)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767395716200)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767395709715)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767395529186)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767395529067)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767394137784)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767393017476)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767392967665)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-R2MQT0E",
+      "timestamp": "/Date(1767392801559)/",
+      "target": "VM-Security-Test-1"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767399720989)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767399720829)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767399118430)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767399110762)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767399110465)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767399097452)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398961822)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398844697)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398841133)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398822682)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398820142)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398819985)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398768116)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398766200)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398754609)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398752446)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398749977)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398719557)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398718714)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398715549)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398464864)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398434647)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398163120)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398162359)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398067545)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398061274)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398060624)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398060020)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398059491)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398050333)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398042678)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398041801)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398040546)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398039435)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398039350)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398037888)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767398018045)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767397995749)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767397982667)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767397981724)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767397960801)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767397960447)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767397948388)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767397947889)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "DESKTOP-UJCET8E",
+      "timestamp": "/Date(1767397946142)/",
+      "target": "VM-Security-Test-2"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "Admin Privileges Assigned",
+      "computer": "LAPTOP-UCGEET2O",
+      "timestamp": "Fri Jan  2 16:55:35 2026",
+      "target": "LocalMachine"
+    }
+  ],
+  "summary": {
+    "total_alerts": 263,
+    "high_severity": 4,
+    "medium_severity": 259,
+    "low_severity": 0,
+    "targets_affected": [
+      "VM-Security-Test-2",
+      "VM-Security-Test-1",
+      "LocalMachine"
+    ]
+  }
+}

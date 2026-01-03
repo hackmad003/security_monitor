@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/security_monitor/src"
+    ],
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/security_monitor/src"
+    ],
+    "python.analysis.diagnosticMode": "workspace"
+}

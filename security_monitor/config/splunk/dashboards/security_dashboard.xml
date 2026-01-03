@@ -1,0 +1,180 @@
+<form version="1.1">
+  <label>Security Monitor Dashboard</label>
+  <description>Real-time Windows Security Event Monitoring</description>
+  
+  <!-- Time Range Picker -->
+  <fieldset submitButton="false">
+    <input type="time" token="time_token">
+      <label>Time Range</label>
+      <default>
+        <earliest>-24h@h</earliest>
+        <latest>now</latest>
+      </default>
+    </input>
+  </fieldset>
+
+  <!-- Row 1: Summary Statistics -->
+  <row>
+    <panel>
+      <title>Total Security Alerts</title>
+      <single>
+        <search>
+          <query>index=main sourcetype=windows_security_monitor event_type="security_alert" | stats count</query>
+          <earliest>$time_token.earliest$</earliest>
+          <latest>$time_token.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="rangeColors">["0x65A637","0xF7BC38","0xF58F39","0xD93F3C"]</option>
+        <option name="underLabel">Total Alerts</option>
+      </single>
+    </panel>
+    
+    <panel>
+      <title>High Severity Alerts</title>
+      <single>
+        <search>
+          <query>index=main sourcetype=windows_security_monitor event_type="security_alert" severity="HIGH" | stats count</query>
+          <earliest>$time_token.earliest$</earliest>
+          <latest>$time_token.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="rangeColors">["0x65A637","0xF7BC38","0xF58F39","0xD93F3C"]</option>
+        <option name="rangeValues">[0,1,5]</option>
+        <option name="underLabel">Critical Threats</option>
+      </single>
+    </panel>
+    
+    <panel>
+      <title>Medium Severity Alerts</title>
+      <single>
+        <search>
+          <query>index=main sourcetype=windows_security_monitor event_type="security_alert" severity="MEDIUM" | stats count</query>
+          <earliest>$time_token.earliest$</earliest>
+          <latest>$time_token.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="rangeColors">["0x65A637","0xF7BC38","0xF58F39","0xD93F3C"]</option>
+        <option name="rangeValues">[0,5,10]</option>
+        <option name="underLabel">Warnings</option>
+      </single>
+    </panel>
+  </row>
+
+  <!-- Row 2: Alert Trends -->
+  <row>
+    <panel>
+      <title>Security Alerts Over Time</title>
+      <chart>
+        <search>
+          <query>index=main sourcetype=windows_security_monitor event_type="security_alert" | timechart count by severity</query>
+          <earliest>$time_token.earliest$</earliest>
+          <latest>$time_token.latest$</latest>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.axisTitleX.text">Time</option>
+        <option name="charting.axisTitleY.text">Alert Count</option>
+        <option name="charting.legend.placement">bottom</option>
+        <option name="charting.lineWidth">2</option>
+      </chart>
+    </panel>
+  </row>
+
+  <!-- Row 3: Alert Distribution -->
+  <row>
+    <panel>
+      <title>Alert Types</title>
+      <chart>
+        <search>
+          <query>index=main sourcetype=windows_security_monitor event_type="security_alert" | stats count by alert_type | sort -count</query>
+          <earliest>$time_token.earliest$</earliest>
+          <latest>$time_token.latest$</latest>
+        </search>
+        <option name="charting.chart">pie</option>
+        <option name="charting.legend.placement">right</option>
+      </chart>
+    </panel>
+    
+    <panel>
+      <title>Severity Distribution</title>
+      <chart>
+        <search>
+          <query>index=main sourcetype=windows_security_monitor event_type="security_alert" | stats count by severity</query>
+          <earliest>$time_token.earliest$</earliest>
+          <latest>$time_token.latest$</latest>
+        </search>
+        <option name="charting.chart">pie</option>
+        <option name="charting.legend.placement">right</option>
+        <option name="charting.seriesColors">[0xF58F39,0xD93F3C]</option>
+      </chart>
+    </panel>
+  </row>
+
+  <!-- Row 4: Security Events -->
+  <row>
+    <panel>
+      <title>Top 10 Security Events</title>
+      <chart>
+        <search>
+          <query>index=main sourcetype=windows_security_monitor event_type="security_event" | stats count by event_name | sort -count | head 10</query>
+          <earliest>$time_token.earliest$</earliest>
+          <latest>$time_token.latest$</latest>
+        </search>
+        <option name="charting.chart">bar</option>
+        <option name="charting.axisTitleX.text">Event Count</option>
+        <option name="charting.axisTitleY.text">Event Type</option>
+      </chart>
+    </panel>
+  </row>
+
+  <!-- Row 5: Recent Alerts -->
+  <row>
+    <panel>
+      <title>Recent Security Alerts</title>
+      <table>
+        <search>
+          <query>index=main sourcetype=windows_security_monitor event_type="security_alert" | eval timestamp=strftime(_time, "%Y-%m-%d %H:%M:%S") | table timestamp, severity, alert_type, computer, failed_attempts | sort -timestamp | head 20</query>
+          <earliest>$time_token.earliest$</earliest>
+          <latest>$time_token.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="rowNumbers">true</option>
+        <format type="color" field="severity">
+          <colorPalette type="map">{"HIGH":#D93F3C,"MEDIUM":#F58F39}</colorPalette>
+        </format>
+      </table>
+    </panel>
+  </row>
+
+  <!-- Row 6: Computer Analysis -->
+  <row>
+    <panel>
+      <title>Alerts by Computer</title>
+      <chart>
+        <search>
+          <query>index=main sourcetype=windows_security_monitor event_type="security_alert" | stats count by computer | sort -count</query>
+          <earliest>$time_token.earliest$</earliest>
+          <latest>$time_token.latest$</latest>
+        </search>
+        <option name="charting.chart">bar</option>
+        <option name="charting.axisTitleX.text">Alert Count</option>
+        <option name="charting.axisTitleY.text">Computer</option>
+      </chart>
+    </panel>
+    
+    <panel>
+      <title>Failed Login Attempts by Computer</title>
+      <table>
+        <search>
+          <query>index=main sourcetype=windows_security_monitor event_type="security_alert" alert_type="Brute Force Detection" | stats sum(failed_attempts) as total_failures by computer | sort -total_failures</query>
+          <earliest>$time_token.earliest$</earliest>
+          <latest>$time_token.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <format type="color" field="total_failures">
+          <colorPalette type="minMidMax" maxColor="#D93F3C" minColor="#65A637"></colorPalette>
+          <scale type="minMidMax"></scale>
+        </format>
+      </table>
+    </panel>
+  </row>
+</form>

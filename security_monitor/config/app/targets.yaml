@@ -1,0 +1,19 @@
+targets:
+  - name: "LocalMachine"
+    host: "localhost"
+    enabled: true
+    description: "Main monitoring server"
+  
+  - name: "VM-Security-Test-1"
+    host: "192.168.56.101"
+    enabled: true
+    description: "Test VM - Windows 10 Pro"
+
+  - name: "VM-Security-Test-2"
+    host: "192.168.56.102"
+    enabled: true
+    description: "Test VM - Windows 10 Pro"
+
+credentials:
+  username: "Administrator"
+  password: "SecurePass123!"
