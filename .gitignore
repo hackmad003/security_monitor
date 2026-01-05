@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment Variables
+.env
+
+# Data & Logs
+security_monitor/data/*.json
+security_monitor/data/reports/*.json
+security_monitor/data/logs/*.log
+*.log
+logs/
+*.log.*
+
+# Temporary Files
+tmp_*
+temp_*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Certificates (keep example only)
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+!security_monitor/config/certs/.gitkeep
+
+# Credentials & Secrets
+*.credentials
+secrets.yaml
+passwords.txt
+*.secret
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# MongoDB dumps
+dump/
+*.bson
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Pytest
+.pytest_cache/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Package manager files
+Pipfile.lock
+poetry.lock
+
+# Windows specific
+desktop.ini
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+*.backup
+*~.nib
+
+# Editor files
+.project
+.pydevproject
+.settings/
