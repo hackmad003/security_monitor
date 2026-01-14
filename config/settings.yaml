@@ -1,0 +1,30 @@
+event_log:
+  server: localhost
+  log_type: Security
+critical_events:
+  4625: Failed Login Attempt
+  4624: Successful Login
+  4720: User Account Created
+  4672: Admin Privileges Assigned
+  4698: Scheduled Task Created
+  4688: Process Created
+  4663: File Access Attempt
+  4648: Login with Explicit Credentials
+detection:
+  brute_force_threshold: 2
+  alert_reset_interval_hours: 1
+detectors:
+  brute_force:
+    enabled: true
+    threshold: 2
+  privilege_escalation:
+    enabled: false
+  persistence:
+    enabled: false
+monitoring:
+  default_event_count: 5000
+  realtime_interval_seconds: 10
+  events_per_check: 5000
+reporting:
+  default_export_filename: security_report.json
+  statistics_days: 7

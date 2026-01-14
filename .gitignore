@@ -35,13 +35,18 @@ ENV/
 
 # Environment Variables
 .env
+*.env
+!.env.example
 
 # Data & Logs
-security_monitor/data/*.json
-security_monitor/data/reports/*.json
-security_monitor/data/logs/*.log
+data/alerted_events.json
+data/reports/*.json
+data/logs/alerts.log
+data/logs/*.log
 *.log
 logs/
+dashboard_error.log
+dashboard_output.log
 *.log.*
 
 # Temporary Files
@@ -66,6 +71,16 @@ Thumbs.db
 secrets.yaml
 passwords.txt
 *.secret
+
+# Secure credential storage (encrypted files)
+.security_monitor/
+*.enc
+key.bin
+
+# Additional environment files
+.env.local
+.env.production
+.env.*.local
 
 # Database Files
 *.db
@@ -109,6 +124,9 @@ $RECYCLE.BIN/
 *.bak
 *.backup
 *~.nib
+
+# Deprecated/archived code
+_deprecated/
 
 # Editor files
 .project

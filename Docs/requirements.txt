@@ -1,8 +1,0 @@
-pymongo
-python-dotenv
-python-docx
-pyyaml
-requests
-pywin32
-openpyxl
-Pillow
