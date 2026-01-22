@@ -10,7 +10,7 @@ import getpass
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from security_monitor.auth.user_store import UserStore
+from src.auth.user_store import UserStore
 
 
 def print_menu():

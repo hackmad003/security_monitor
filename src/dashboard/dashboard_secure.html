@@ -598,6 +598,146 @@
         .loading.active {
             display: block;
         }
+
+        /* Login Modal Styles */
+        .login-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-overlay.active {
+            display: flex;
+        }
+
+        .login-box {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .login-box h2 {
+            margin-bottom: 10px;
+            color: #32373b;
+            font-size: 24px;
+        }
+
+        .login-box .subtitle {
+            color: #65686b;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .login-box .form-group {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .login-box .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #333;
+        }
+
+        .login-box .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #d6d9dc;
+            border-radius: 5px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        .login-box .form-group input:focus {
+            outline: none;
+            border-color: #0073e6;
+            box-shadow: 0 0 0 3px rgba(0, 115, 230, 0.1);
+        }
+
+        .login-box .btn-login {
+            width: 100%;
+            padding: 12px;
+            background: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .login-box .btn-login:hover {
+            background: #005bb5;
+        }
+
+        .login-box .btn-login:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .login-error {
+            background: #fee;
+            color: #c00;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .login-error.active {
+            display: block;
+        }
+
+        .login-info {
+            background: #e7f3ff;
+            color: #0073e6;
+            padding: 12px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #ffffff;
+            font-size: 13px;
+        }
+
+        .user-info .username {
+            font-weight: 500;
+        }
+
+        .btn-logout {
+            background: transparent;
+            border: 1px solid #65686b;
+            color: #ffffff;
+            padding: 4px 10px;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-logout:hover {
+            background: #d93f3f;
+            border-color: #d93f3f;
+        }
     </style>
 </head>
 <body>
@@ -610,6 +750,10 @@
             <div class="header-actions">
                 <button class="header-btn" onclick="refreshAlerts()">🔄 Refresh</button>
                 <button class="header-btn" onclick="window.open('/docs', '_blank')">📖 API Docs</button>
+                <div class="user-info" id="userInfo" style="display: none;">
+                    <span>👤 <span class="username" id="currentUsername"></span></span>
+                    <button class="btn-logout" onclick="logout()">Logout</button>
+                </div>
                 <div class="status">
                     <span class="status-dot"></span>
                     <span id="statusText">Connected</span>
@@ -792,12 +936,153 @@
         </div> <!-- Close content-wrapper -->
     </div>
 
+    <!-- Login Modal -->
+    <div id="loginOverlay" class="login-overlay active">
+        <div class="login-box">
+            <h2>🛡️ Security Monitor</h2>
+            <p class="subtitle">Please log in to continue</p>
+            
+            <div id="loginError" class="login-error"></div>
+            
+            <form onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="loginUsername">Username</label>
+                    <input type="text" id="loginUsername" name="username" required autocomplete="username">
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" name="password" required autocomplete="current-password">
+                </div>
+                <button type="submit" class="btn-login" id="btnLogin">
+                    🔐 Login
+                </button>
+            </form>
+            
+            <div class="login-info">
+                <strong>Default Credentials:</strong><br>
+                Username: <code>admin</code><br>
+                Password: <code>ChangeMe123!</code>
+            </div>
+        </div>
+    </div>
+
     <script>
         // ==========================================
         // GLOBAL STATE & AUTHENTICATION
         // ==========================================
         let authToken = localStorage.getItem('authToken');
+        let currentUser = localStorage.getItem('currentUser');
         let ws = null;
+
+        /**
+         * Handle login form submission
+         */
+        async function handleLogin(event) {
+            event.preventDefault();
+            
+            const username = document.getElementById('loginUsername').value;
+            const password = document.getElementById('loginPassword').value;
+            const btnLogin = document.getElementById('btnLogin');
+            const loginError = document.getElementById('loginError');
+            
+            // Disable button and show loading
+            btnLogin.disabled = true;
+            btnLogin.textContent = '🔄 Logging in...';
+            loginError.classList.remove('active');
+            
+            try {
+                const response = await fetch('/api/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ username, password })
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    // Store token and username
+                    authToken = data.access_token;
+                    currentUser = data.username;
+                    localStorage.setItem('authToken', authToken);
+                    localStorage.setItem('currentUser', currentUser);
+                    
+                    // Hide login modal
+                    document.getElementById('loginOverlay').classList.remove('active');
+                    
+                    // Show user info
+                    document.getElementById('currentUsername').textContent = currentUser;
+                    document.getElementById('userInfo').style.display = 'flex';
+                    
+                    // Initialize dashboard
+                    initDashboard();
+                    
+                    console.log('✅ Logged in successfully as', currentUser);
+                } else {
+                    // Show error
+                    loginError.textContent = data.detail || 'Login failed. Please check your credentials.';
+                    loginError.classList.add('active');
+                }
+            } catch (error) {
+                console.error('Login error:', error);
+                loginError.textContent = 'Network error. Please check if the server is running.';
+                loginError.classList.add('active');
+            } finally {
+                // Re-enable button
+                btnLogin.disabled = false;
+                btnLogin.textContent = '🔐 Login';
+            }
+        }
+
+        /**
+         * Logout function
+         */
+        function logout() {
+            if (confirm('Are you sure you want to logout?')) {
+                // Clear credentials
+                localStorage.removeItem('authToken');
+                localStorage.removeItem('currentUser');
+                authToken = null;
+                currentUser = null;
+                
+                // Close WebSocket
+                if (ws) {
+                    ws.close();
+                    ws = null;
+                }
+                
+                // Hide user info
+                document.getElementById('userInfo').style.display = 'none';
+                
+                // Show login modal
+                document.getElementById('loginOverlay').classList.add('active');
+                
+                // Clear form
+                document.getElementById('loginUsername').value = '';
+                document.getElementById('loginPassword').value = '';
+                
+                console.log('✅ Logged out successfully');
+            }
+        }
+
+        /**
+         * Check if user is authenticated
+         */
+        function checkAuthentication() {
+            if (authToken && currentUser) {
+                // User is logged in
+                document.getElementById('loginOverlay').classList.remove('active');
+                document.getElementById('currentUsername').textContent = currentUser;
+                document.getElementById('userInfo').style.display = 'flex';
+                return true;
+            } else {
+                // User is not logged in
+                document.getElementById('loginOverlay').classList.add('active');
+                document.getElementById('userInfo').style.display = 'none';
+                return false;
+            }
+        }
         let charts = {};
 
         /**
@@ -836,8 +1121,15 @@
             
             // Handle 401 Unauthorized
             if (response.status === 401) {
-                console.warn('Authentication required');
-                // Could redirect to login here if needed
+                console.warn('Authentication required - session expired');
+                // Clear invalid token and show login
+                localStorage.removeItem('authToken');
+                localStorage.removeItem('currentUser');
+                authToken = null;
+                currentUser = null;
+                document.getElementById('loginOverlay').classList.add('active');
+                document.getElementById('userInfo').style.display = 'none';
+                alert('Your session has expired. Please log in again.');
             }
             
             return response;
@@ -1418,7 +1710,16 @@
         }
 
         // Start dashboard when page loads
-        window.addEventListener('load', initDashboard);
+        window.addEventListener('load', function() {
+            // Check authentication first
+            if (checkAuthentication()) {
+                // User is authenticated, initialize dashboard
+                initDashboard();
+            } else {
+                // User not authenticated, show login modal (already shown by checkAuthentication)
+                console.log('⚠️  Please log in to access the dashboard');
+            }
+        });
     </script>
 </body>
 </html>

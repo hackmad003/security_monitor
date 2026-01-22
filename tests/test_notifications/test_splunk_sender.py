@@ -4,7 +4,7 @@ Tests for Splunk HEC integration and SSL verification
 """
 
 import pytest
-from security_monitor.notifications.splunk_sender import SplunkSender
+from src.notifications.splunk_sender import SplunkSender
 
 
 class TestSplunkSSLVerification:

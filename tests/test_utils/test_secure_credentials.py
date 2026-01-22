@@ -6,7 +6,7 @@ Tests for credential validation and secure storage
 import pytest
 import os
 from pathlib import Path
-from security_monitor.utils.secure_credentials import SecureCredentialStore, CredentialValidator
+from src.utils.secure_credentials import SecureCredentialStore, CredentialValidator
 
 
 class TestCredentialValidator:

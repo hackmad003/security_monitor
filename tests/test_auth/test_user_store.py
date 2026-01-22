@@ -5,7 +5,7 @@ Tests for user management and storage
 
 import pytest
 from pathlib import Path
-from security_monitor.auth.user_store import UserStore
+from src.auth.user_store import UserStore
 
 
 class TestUserStore:
@@ -40,7 +40,7 @@ class TestUserStore:
     
     def test_user_store_password_change(self, temp_dir):
         """Test password change functionality"""
-        from security_monitor.auth.jwt_handler import authenticate_user
+        from src.auth.jwt_handler import authenticate_user
         
         storage_path = temp_dir / "users.json"
         store = UserStore(storage_path=storage_path)

@@ -4,7 +4,7 @@ Cross-module input validation tests
 """
 
 import pytest
-from security_monitor.utils.secure_credentials import CredentialValidator
+from src.utils.secure_credentials import CredentialValidator
 
 
 class TestInputValidation:

@@ -26,7 +26,7 @@ try:
     sys.path.insert(0, str(Path(__file__).parent.parent))
     
     # Import after suppressing warnings
-    from security_monitor.dashboard import web_dashboard_secure
+    from src.dashboard import web_dashboard_secure
     import uvicorn
     
     # Start the server

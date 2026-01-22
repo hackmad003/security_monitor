@@ -4,7 +4,7 @@ Tests for configuration loading and management
 """
 
 import pytest
-from security_monitor.utils.config import Config
+from src.utils.config import Config
 
 
 class TestConfigSecureStorage:

@@ -4,7 +4,7 @@ Tests for remote Windows event log reading with security validations
 """
 
 import pytest
-from security_monitor.core.remote_event_reader import RemoteEventReader
+from src.core.remote_event_reader import RemoteEventReader
 
 
 class TestRemoteEventReaderSecurity:

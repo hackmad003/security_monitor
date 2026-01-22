@@ -19,16 +19,16 @@ import uvicorn
 # Add security_monitor to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from security_monitor.utils.config import Config
-from security_monitor.database import MongoDBHandler
-from security_monitor.core.multi_target_monitor import MultiTargetMonitor
-from security_monitor.auth import (
+from src.utils.config import Config
+from src.database import MongoDBHandler
+from src.core.multi_target_monitor import MultiTargetMonitor
+from src.auth import (
     create_access_token,
     get_current_user,
     authenticate_user,
     UserStore
 )
-from security_monitor.utils.rate_limiter import get_rate_limiter
+from src.utils.rate_limiter import get_rate_limiter
 
 # Initialize FastAPI app
 app = FastAPI(

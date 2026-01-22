@@ -4,7 +4,7 @@ Tests for NoSQL injection prevention and query validation
 """
 
 import pytest
-from security_monitor.database.query_validator import QueryValidator, MongoDBQueryBuilder
+from src.database.query_validator import QueryValidator, MongoDBQueryBuilder
 
 
 class TestNoSQLInjectionPrevention:

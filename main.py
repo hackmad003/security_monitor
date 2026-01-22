@@ -11,8 +11,8 @@ from pathlib import Path
 current_dir = Path(__file__).parent
 sys.path.insert(0, str(current_dir))
 
-from security_monitor import SecurityMonitor, Config
-from security_monitor.core.multi_target_monitor import MultiTargetMonitor
+from src import SecurityMonitor, Config
+from src.core.multi_target_monitor import MultiTargetMonitor
 
 
 def main():

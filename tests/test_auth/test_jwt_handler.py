@@ -4,8 +4,8 @@ Tests for JWT token generation, validation, and authentication
 """
 
 import pytest
-from security_monitor.auth.jwt_handler import create_access_token, verify_password, hash_password, authenticate_user
-from security_monitor.auth.user_store import UserStore
+from src.auth.jwt_handler import create_access_token, verify_password, hash_password, authenticate_user
+from src.auth.user_store import UserStore
 
 
 class TestJWTAuthentication:

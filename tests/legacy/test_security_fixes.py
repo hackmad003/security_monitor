@@ -12,9 +12,9 @@ import os
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from security_monitor.utils.secure_credentials import SecureCredentialStore, CredentialValidator
-from security_monitor.auth.jwt_handler import create_access_token, verify_password, hash_password
-from security_monitor.auth.user_store import UserStore
+from src.utils.secure_credentials import SecureCredentialStore, CredentialValidator
+from src.auth.jwt_handler import create_access_token, verify_password, hash_password
+from src.auth.user_store import UserStore
 
 
 class TestSEC001_CommandInjectionFix:
@@ -92,7 +92,7 @@ class TestSEC001_CommandInjectionFix:
     
     def test_remote_event_reader_validates_inputs(self):
         """Test that RemoteEventReader validates all inputs"""
-        from security_monitor.core.remote_event_reader import RemoteEventReader
+        from src.core.remote_event_reader import RemoteEventReader
         
         # Should raise ValueError for dangerous characters
         with pytest.raises(ValueError):
@@ -169,7 +169,7 @@ class TestSEC002_SecureCredentialStorage:
     
     def test_config_uses_secure_storage(self):
         """Test that Config class uses secure credential storage"""
-        from security_monitor.utils.config import Config
+        from src.utils.config import Config
         
         with tempfile.TemporaryDirectory() as tmpdir:
             config = Config()
@@ -229,7 +229,7 @@ class TestSEC003_APIAuthentication:
             assert 'viewer' in user['roles']
             
             # Verify password
-            from security_monitor.auth.jwt_handler import authenticate_user
+            from src.auth.jwt_handler import authenticate_user
             auth_result = authenticate_user("testuser", "TestPass123!", store)
             assert auth_result is not None
             
@@ -264,7 +264,7 @@ class TestSEC003_APIAuthentication:
             assert result is True
             
             # Verify old password doesn't work
-            from security_monitor.auth.jwt_handler import authenticate_user
+            from src.auth.jwt_handler import authenticate_user
             auth_result = authenticate_user("testuser", "OldPassword123!", store)
             assert auth_result is None
             
@@ -288,7 +288,7 @@ class TestInputValidation:
     
     def test_pydantic_model_validation(self):
         """Test that Pydantic models validate inputs"""
-        from security_monitor.dashboard.web_dashboard_secure import TargetCreate, MonitoringParams
+        from src.dashboard.web_dashboard_secure import TargetCreate, MonitoringParams
         
         # Valid target
         target = TargetCreate(

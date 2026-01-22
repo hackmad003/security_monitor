@@ -6,7 +6,7 @@ Tests for API rate limiting functionality
 import pytest
 import time
 from datetime import datetime, timedelta
-from security_monitor.utils.rate_limiter import RateLimiter, EndpointRateLimiter
+from src.utils.rate_limiter import RateLimiter, EndpointRateLimiter
 
 
 class TestRateLimiting:

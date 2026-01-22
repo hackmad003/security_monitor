@@ -11,9 +11,9 @@ import tempfile
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from security_monitor.database.query_validator import QueryValidator, MongoDBQueryBuilder
-from security_monitor.utils.rate_limiter import RateLimiter, EndpointRateLimiter
-from security_monitor.notifications.splunk_sender import SplunkSender
+from src.database.query_validator import QueryValidator, MongoDBQueryBuilder
+from src.utils.rate_limiter import RateLimiter, EndpointRateLimiter
+from src.notifications.splunk_sender import SplunkSender
 from datetime import datetime, timedelta
 
 

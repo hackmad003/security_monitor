@@ -13,17 +13,17 @@ try:
     print("   ✓ FastAPI OK")
     
     print("2. Importing Config...")
-    from security_monitor.utils.config import Config
+    from src.utils.config import Config
     print("   ✓ Config OK")
     
     print("3. Importing MongoDB...")
-    from security_monitor.database import MongoDBHandler
+    from src.database import MongoDBHandler
     config = Config()
     mongodb = MongoDBHandler(uri=config.mongodb_uri, db_name=config.mongodb_database)
     print("   ✓ MongoDB OK")
     
     print("4. Importing Auth...")
-    from security_monitor.auth import UserStore
+    from src.auth import UserStore
     print("   ✓ Auth imports OK")
     
     print("5. Creating UserStore...")
@@ -33,7 +33,7 @@ try:
     print("\n✅ All components loaded successfully!")
     print("\nNow testing full dashboard import...")
     
-    from security_monitor.dashboard import web_dashboard_secure
+    from src.dashboard import web_dashboard_secure
     print("\n✅ Dashboard module imported successfully!")
     
 except Exception as e:

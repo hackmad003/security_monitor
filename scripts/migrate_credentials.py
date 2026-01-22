@@ -10,8 +10,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import yaml
-from security_monitor.utils.config import Config
-from security_monitor.utils.secure_credentials import SecureCredentialStore
+from src.utils.config import Config
+from src.utils.secure_credentials import SecureCredentialStore
 
 
 def migrate_credentials():
